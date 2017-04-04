@@ -10,4 +10,27 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="mx.edu.itculiacan.marvel.Comics">
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Personaje"
+        android:ems="10"
+        android:layout_marginTop="62dp"
+        android:id="@+id/txtPerComics"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Buscar Comics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPerComics"
+        android:layout_marginTop="24dp"
+        android:id="@+id/btnBuscarComics"
+        android:layout_alignLeft="@+id/txtPerComics"
+        android:layout_alignStart="@+id/txtPerComics"
+        android:layout_alignRight="@+id/txtPerComics"
+        android:layout_alignEnd="@+id/txtPerComics"
+        android:onClick="pantallaListadoComics" />
 </RelativeLayout>

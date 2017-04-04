@@ -23,4 +23,6 @@ public class MainActivity extends AppCompatActivity {
         Intent pantallaComics= new Intent(this,Comics.class);
         startActivity(pantallaComics); //Cambia de pantalla
     }
+
+
 }

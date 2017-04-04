@@ -34,5 +34,6 @@
         android:layout_alignLeft="@+id/txtPersonaje"
         android:layout_alignStart="@+id/txtPersonaje"
         android:layout_alignRight="@+id/txtPersonaje"
-        android:layout_alignEnd="@+id/txtPersonaje" />
+        android:layout_alignEnd="@+id/txtPersonaje"
+        android:onClick="pantallaDetallePersonaje"/>
 </RelativeLayout>
